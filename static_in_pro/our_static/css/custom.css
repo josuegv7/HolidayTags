@@ -1,0 +1,344 @@
+.text-align-center {
+	text-align: center;
+}
+
+
+.og-price {
+	color:red;
+	text-decoration:line-through;
+}
+
+.fa-navbar-cart {
+	font-size: 18px;
+    vertical-align: middle;
+}
+
+.container-alert-flash {
+	position: absolute;
+    top: 10px;
+    z-index: 50000;
+    width: 100%;
+    right: 0%;
+    margin: 0px;
+    display:none;
+}
+
+/*PASTED BELOW*/
+
+html, body {
+ height: 100%;
+ width:100%;
+};
+
+p{
+ color: #22223B;
+ font-size: 16px;
+ font-weight: 300;
+}
+
+h3{
+ color: #4A4E69;
+ text-transform: uppercase;
+}
+
+/*HOME!!!*/
+#home {
+ height: 100%;
+ width:100%;
+}
+#home-cover {
+ height: 100%;
+ background-image: url('../img/pic 8.jpg');
+}
+
+#home-content-box{
+ width: 100%;
+ height: 100%;
+ display: table;
+}
+
+#home-content-box-inner{
+ display: table-cell;
+ vertical-align: middle;
+ text-align: center;
+}
+
+#home-heading h3 {
+ color: #fff;
+ font-size: 55px;
+ font-weight: 700;
+ margin: 20px 0 20px 0;
+}
+
+.home-btn{
+	color: #fff;
+	font-size: 27px;
+}
+
+/*BUTTONS*/
+
+.btn-general{
+
+ border-width: 2px;
+ border-radius: 0;
+ padding: 12px 26px 12px 26px;
+ font-size: 16px;
+ font-weight: 400;
+ text-transform: uppercase;
+}
+
+
+.btn-white{
+ border-color: #fff;
+ color: #fff;
+}
+
+.btn-white:hover, .btn-white:focus{
+ background-color: #fff;
+	 color: #4A4E69;
+}
+
+/*PARALLEX GENERIC*/
+
+.bg-parallax {
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+}
+
+/*Content Box*/
+
+
+.content-box{
+ padding: 60px 0 60px 0;
+}
+
+.content-title h3{
+ font-size: 30px;
+ font-weight: 700px;
+ text-align: center;
+ margin-bottom: 30px;
+}
+
+.content-title-underline {
+ width: 30px;
+ height: 3px;
+ background-color: #22223B;
+ margin: 0 auto 30px auto;
+}
+
+/*Service*/
+
+.service-item {
+ padding: 20px 0 20px 0;
+ margin-bottom: : 20px;
+ cursor: pointer;
+}
+
+.service-item-icon i {
+ color: #9A8C98;
+ float: left;
+ padding: 15px;
+ margin-right: 25px;
+ width: 75px;
+ height: 75px;
+ text-align: center;
+}
+
+.service-item:hover .service-item-icon i {
+ color:#fff;
+ background-color: #9A8C98;
+}
+
+
+.service-item-title h3{
+ font-size: 20px;
+ font-weight: 400;
+ margin: 0 0 10px 0;
+}
+
+.service-item-desc p {
+ margin: 0;
+ padding-left: 85px;
+}
+
+.service-item-desc p {
+ float: right;
+}
+
+
+/*PRICING*/
+
+.pricing-box{
+ border: 3px solid #22223B;
+ padding: 30px 0;
+ margin: 40px 0;
+}
+
+h4.pricing-title{
+ background-color: #22223B;
+ color: #fff;
+ display: inline-block;
+ padding: 7px 15px;
+ font-size: 14px;
+ font-weight: 700;
+ text-transform: uppercase;
+ margin: 0 0 30px 0;
+}
+
+h3.pricing-value{
+ font-size: 50px;
+ font-weight: 700;
+}
+
+h3.pricing-value sup {
+ font-size: 28px;
+ font-weight: normal;
+ vertical-align: super;
+}
+
+ul.pricing-spec {
+ list-style: none;
+ padding-left: 0;
+ margin: 20px 0 60px 0;
+}
+ul.pricing-spec li p{
+ font-weight: 400;
+ text-transform: uppercase;
+}
+
+.pricing-box-lg {
+ padding: 80px 0;
+ margin: 0;
+ background-color: #22223B;
+ color: #fff;
+}
+
+.pricing-box-lg h4.pricing-title {
+ color:  #22223B;
+ background-color:  #fff;
+}
+
+.pricing-box-lg ul.pricing-space li p {
+	color: #fff
+}
+
+/*Social*/
+.social-list{
+ padding: 0;
+}
+.social-list li{
+ list-style: none;
+ display: inline-block;
+ width: 32px;
+ height: 32px;
+ margin-right: 6px;
+ margin-top:10px
+}
+.social-icon{
+ font-size: 17px;
+}
+.icon-white i{
+ color: #fff;
+}
+.icon-gray i{
+ color: #4A4E69;
+}
+
+.social-icon i:hover {
+ color: #9A8C98;
+}
+
+
+
+/*CONTACT*/
+
+footer {
+ background-image: url('../img/pic 21.jpg');
+ padding-top: 30px;
+ border-top: 5px solid rbga(0,0,0,0.1);
+
+}
+#contact-left h3{
+ color: #fff;
+ font-size: 27px;
+ font-weight: 700;
+}
+
+#contact-left p{
+ color: #fff;
+ margin-bottom: 30px;
+}
+
+#contact-info{
+ background-repeat: no-repeat;
+ background-size: contain;
+}
+
+#phone-fax-email {
+ color: #fff;
+}
+
+/*ABOUT*/
+
+/*Left side*/
+#about-content-box{
+ float: left;
+ height: 700px;
+ width: 400px;
+}
+
+#about-content-box-outer{
+ width: 400px;
+ height: 80%;
+}
+
+#about .content-title-underline {
+ margin: 0 0 20px 0;
+}
+
+#about-bg-diagnoal{
+ width: 50%;
+ height: 515px;
+ float: right;
+ background-image: url('../img/pic 19.jpg');
+ background-position: center;
+}
+
+
+
+/*TEAM*/
+#team{
+ text-align: center;
+ color: white;
+}
+.team-member {
+ margin: 0 15px;
+}
+
+.team-member-info{
+ padding: 10px 0 30px 0;
+}
+
+h4.team-member-name {
+ font-size: 20px;
+ font-weight: 700;
+ color: #fff;
+ letter-spacing: 1px;
+ padding-top: 2px;
+}
+
+h4.team-member-designation {
+ color: #fff;
+ font-size: 15px;
+ font-weight: 700;
+ font-style: italic;
+ letter-spacing: 1px;
+ margin-top: 5px;
+}
+
+#profile-image{
+ height: 180px;
+ width:180px;
+ margin-left: 34%;
+}

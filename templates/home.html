@@ -1,0 +1,202 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% load staticfiles %}
+
+{% block head_title %}Welcome | {{ block.super }}{% endblock %}
+
+{% block content %}
+<!-- PLACED IN HERE -->
+
+<section id="home" style="height: 100%">
+  <div id="home-cover" class="bg-parallax">
+    <div id="home-content-box">
+      <div id="home-content-box-inner">
+        <div id="home-heading">
+          <h3>{{ title }}</h3>
+        </div>
+        <div class="home-btn">
+					Because gratitude and championing a cause greater than yourself create a more productive team environment and better world.
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <div class="content-box">
+    <div class="content-title">
+      <h3>HOW IT WORKS</h3>
+      <div class="content-title-underline">
+
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="service-item">
+            <div class="service-item-icon">
+              <i class="fa fa-hand-o-up fa-3x"></i>
+            </div>
+            <div class="service-item-title">
+              <h3>Pick A Charity</h3>
+            </div>
+            <div class="service-item-desc">
+              <p>Work with our team to create a fundraising strategy and select a charity that is aligned with your organization’s mission. </p>
+
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-4">
+          <div class="service-item">
+            <div class="service-item-icon">
+              <i class="fa fa-money fa-3x"></i>
+            </div>
+            <div class="service-item-title">
+              <h3>Fundraising Goal</h3>
+            </div>
+            <div class="service-item-desc">
+              <p>Our team will help you setup your store and price your Tags! appropriately to help you reach your goal.   </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="service-item">
+            <div class="service-item-icon">
+              <i class="fa fa-gift fa-3x"></i>
+            </div>
+            <div class="service-item-title">
+              <h3>Invite your Organization</h3>
+            </div>
+            <div class="service-item-desc">
+              <p>Once the teams start, it’ll be hard for them to stop. Giving is contagious! We’ll ship the Tags! 5-7 business days after your fundraising deadline.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!--PRICING-->
+<section id="pricing">
+  <div class="content-box">
+    <div class="content-title">
+      <h3>Packages:</h3>
+      <div class="content-title-underline"> </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="pricing-box text-center">
+            <h4 class="pricing-title">Home</h4>
+            <h3 class="pricing-value">Pricing Starts at 5<sup>$</sup>/tag</h3>
+            <ul class="pricing-spec">
+              <li><p> Individual Tags </p></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="pricing-box pricing-box-lg text-center">
+            <h4 class="pricing-title">Business</h4>
+            <h3 class="pricing-value">Pricing Starts at 5<sup>$</sup>/tag</h3>
+            <ul class="pricing-spec">
+              <li><p>200 Cards Min </p></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="pricing-box text-center">
+            <h4 class="pricing-title">Education</h4>
+            <h3 class="pricing-value">Pricing Start at 5<sup>$</sup>/tag</h3>
+            <ul class="pricing-spec">
+              <li><p>50 Cards Min </p></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section id="about">
+
+   <!-- right side image -->
+   <div id="about-bg-diagnoal" class="bg-parallax">
+
+   </div>
+   <!--left side  -->
+
+   <div class="container">
+     <div class="row">
+       <div class="col-lg-6">
+         <div id="about-content-box">
+           <div class="about-content-box-outer">
+             <div class="about-content-title">
+               <h3>About</h3>
+               <div class="content-title-underline"> </div>
+             </div>
+             <div id="about-desc">
+               <p>HolidayTags! started as a labor of love. Our Founder and CEO, Stephanie Vera, thought of the concept during the holiday season at her first job out of college. She wanted to come up with a way to lift up the spirits of her team members by galvanizing everyone around the idea of thanksgiving and giving back. The first year her company's recruiting department made the cards -- their hands were sore throughout the week because the demand was so high they kept having to make more! The organization sold these for $2 each and the proceeds went to JDRF (Juvenile Diabetes Research Foundation). What she found time and time again of doing this though was that the desire to participate and Tag! someone was never short at any organization, but what was short was the time everyone had to write their notes, make the cards, and deliver them. So she came up with a way to eliminate the barriers and now schools and organizations are very easily ‘tagging’ each other across the nation. Why tag people? Because gratitude and championing a cause greater than yourself create a more productive team environment and better world. The team at Tag! Hopes to increase recognition not only in businesses, but in schools, families, and organizations across the globe!
+               </p>
+             </div>
+           </div>
+         </div>
+       </div>
+
+     </div>
+
+   </div>
+
+</section>
+
+<footer>
+  <div class="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div id="contact-left">
+              <h3>HolidayTag</h3>
+              <p>Because gratitude and championing a cause greater than yourself create a more productive team environment and better world.</p>
+              <div id="contact-info">
+                <div class="phone-fax-email">
+                  <p><strong>Email:</strong><span> Holidaytags.smv@gmail.com</span></p>
+                </div>
+              <ul class="social-list">
+                <li><a href="#" class="social-icon icon-white"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#" class="social-icon icon-white"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#" class="social-icon icon-white"><i class="fa fa-twitter"></i></a></li>
+              </ul>
+              </div>
+            </div>
+        </div>
+        <!-- TEAM -->
+        <div class="col-md-6">
+          <div id="team">
+            <h3>Our Team</h3>
+            <div class="content-title-underline"></div>
+            <div class="team-member">
+              <img id='profile-image' src="{% static "img/pic 24.jpg" %}" class="img-responsive" alt="">
+              <div class="team-member-info text-center">
+                  <h4 class="team-member-name">Steph Vera</h4>
+                  <h4 class="team-member-designation">CEO/COO/CTO/CFO</h4>
+                  <ul class="social-list">
+                    <li><a href="#" class="social-icon icon-gray"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#" class="social-icon icon-gray"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#" class="social-icon icon-gray"><i class="fa fa-twitter"></i></a></li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- PLACED IN HERE  -->
+{% endblock %}
